@@ -95,6 +95,7 @@ function initDocsContent() {
         gameplayContent,
         petsContent,
         economyContent,
+        marketplaceContent,
         stablecoinStakingContent,
         referralContent,
         lotteryContent,
@@ -133,6 +134,9 @@ function initDocsContent() {
     
     // Initialize reward level selector
     initRewardLevels();
+
+    // 初始化FAQ点击事件
+    initFAQNavigation();
 }
 
 function initDocsNavigation() {
@@ -213,5 +217,30 @@ function initRewardLevels() {
             // Update the value display
             bar.nextElementSibling.textContent = value;
         });
+    });
+}
+
+function initFAQNavigation() {
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+        const targetSection = item.getAttribute('data-target');
+        const question = item.querySelector('.faq-question');
+        
+        if (question && targetSection) {
+            question.addEventListener('click', () => {
+                // 先切换到对应的文档部分
+                const navItem = document.querySelector(`.nav-item[data-section="${targetSection}"]`);
+                if (navItem) {
+                    navItem.click();
+                }
+                
+                // 然后滚动到该部分顶部
+                const section = document.getElementById(targetSection);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        }
     });
 }

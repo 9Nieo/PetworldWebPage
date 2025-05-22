@@ -6,7 +6,7 @@ const faqContent = {
         <h3>Frequently Asked Questions</h3>
         
         <div class="faq-grid">
-            <div class="faq-item">
+            <div class="faq-item" data-target="pets">
                 <div class="faq-question">
                     <i class="fas fa-paw"></i>
                     <h4>How do I get more pets?</h4>
@@ -16,7 +16,7 @@ const faqContent = {
                 </div>
             </div>
             
-            <div class="faq-item">
+            <div class="faq-item" data-target="economy">
                 <div class="faq-question">
                     <i class="fas fa-coins"></i>
                     <h4>How do I earn tokens?</h4>
@@ -26,7 +26,7 @@ const faqContent = {
                 </div>
             </div>
             
-            <div class="faq-item">
+            <div class="faq-item" data-target="pets">
                 <div class="faq-question">
                     <i class="fas fa-exchange-alt"></i>
                     <h4>Can I trade pets?</h4>
@@ -36,7 +36,7 @@ const faqContent = {
                 </div>
             </div>
             
-            <div class="faq-item">
+            <div class="faq-item" data-target="gameplay">
                 <div class="faq-question">
                     <i class="fas fa-users"></i>
                     <h4>Is there multiplayer?</h4>
@@ -57,7 +57,7 @@ const faqContent = {
                 <a href="#" class="support-link">
                     <i class="fab fa-telegram"></i> Telegram
                 </a>
-                <a href="#" class="support-link">
+                <a href="https://x.com/petworldfun" class="support-link">
                     <i class="fab fa-twitter"></i> Twitter
                 </a>
             </div>

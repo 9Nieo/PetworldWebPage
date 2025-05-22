@@ -75,15 +75,15 @@ const economyContent = {
                 <div class="chart-bar"></div>
                 <span>5%</span>
             </div>
-            <div class="chart-item" style="--percentage: 8%">
+            <div class="chart-item" style="--percentage: 10%">
                 <span>Developer</span>
                 <div class="chart-bar"></div>
-                <span>8%</span>
+                <span>10%</span>
             </div>
-            <div class="chart-item" style="--percentage: 22%">
+            <div class="chart-item" style="--percentage: 20%">
                 <span>Other Uses</span>
                 <div class="chart-bar"></div>
-                <span>22%</span>
+                <span>20%</span>
             </div>
         </div>
     `

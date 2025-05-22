@@ -3,6 +3,12 @@
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
 }
 
+/* Add style for the hero image */
+.download-hero .hero-image {
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
 .download-section {
     padding: 80px 0;
     background-color: var(--bg-color);
