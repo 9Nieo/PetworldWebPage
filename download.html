@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download PETWORLD</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/download.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="preloader">
+        <div class="spinner"></div>
+        <p>PETWORLD loading...</p>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="../images/logo.png" alt="PETWORLD Logo" class="logo">
+                <span class="logo-text">PETWORLD</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="download.html" class="active">Download</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero download-hero">
+            <div class="hero-background-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container hero-content-container">
+                <div class="hero-text">
+                    <h1 class="animate-on-scroll" data-animation="fadeInUp">Download <span class="highlight PacificoFont">PETWORLD</span></h1>
+                    <p class="animate-on-scroll" data-animation="fadeInUp" data-delay="200">Get started with the decentralized game world today.</p>
+                    <p class="animate-on-scroll" data-animation="fadeInUp" data-delay="300">PETWORLD is completely free, open-source, and decentralized. No server connection is required—run it locally, and all assets are truly yours.</p>
+                </div>
+                <div class="hero-image-container animate-on-scroll" data-animation="fadeInRight" data-delay="300">
+                    <img src="../images/icons/download.svg" alt="Download PETWORLD" class="hero-image" onerror="this.src='https://placehold.co/500x450/E0E0E0/B0B0B0?text=image loading failed'">
+                    <div class="hero-image-decoration"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="download-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fadeInUp">
+                    <i class="fas fa-download icon-left"></i> Available Platforms <i class="fas fa-download icon-right"></i>
+                </h2>
+                
+                <div class="download-grid">
+                    <div class="download-card animate-on-scroll" data-animation="fadeInUp" data-delay="100">
+                        <div class="download-icon">
+                            <i class="fab fa-windows"></i>
+                        </div>
+                        <h3>Windows</h3>
+                        <p>Compatible with Windows 10 and 11</p>
+                        <a href="#" class="download-button">
+                            Download for Windows <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="download-card animate-on-scroll" data-animation="fadeInUp" data-delay="200">
+                        <div class="download-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <h3>macOS</h3>
+                        <p>For Mac computers with Apple Silicon or Intel</p>
+                        <a href="#" class="download-button">
+                            Download for Mac <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="download-card animate-on-scroll" data-animation="fadeInUp" data-delay="300">
+                        <div class="download-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <h3>Linux</h3>
+                        <p>.deb and .rpm packages available</p>
+                        <a href="#" class="download-button">
+                            Download for Linux <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="download-card animate-on-scroll" data-animation="fadeInUp" data-delay="400">
+                        <div class="download-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile</h3>
+                        <p>Coming soon to iOS and Android</p>
+                        <a href="#" class="download-button disabled">
+                            Notify Me When Available <i class="fas fa-bell"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Add Node.js notice above System Requirements -->
+                <div class="requirement-block animate-on-scroll" data-animation="fadeInUp" data-delay="500">
+                    <h4><i class="fab fa-node-js"></i> Node.js Requirement</h4>
+                    <p>To run PETWORLD, you must have Node.js installed on your system. Download the latest version from the official website:</p>
+                    <a href="https://nodejs.org/en/download/" class="download-button" target="_blank" rel="noopener noreferrer">
+                        Download Node.js <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="system-requirements animate-on-scroll" data-animation="fadeInUp" data-delay="600">
+                    <h3><i class="fas fa-laptop"></i> System Requirements</h3>
+                    <div class="requirements-grid">
+                        <div class="requirement-block">
+                            <h4>Windows</h4>
+                            <ul>
+                                <li><i class="fas fa-microchip"></i> OS: Windows 7 (64-bit) or later</li>
+                                <li><i class="fas fa-microchip"></i> CPU: Any modern processor</li>
+                                <li><i class="fas fa-memory"></i> RAM: 2GB</li>
+                                <li><i class="fas fa-hdd"></i> Storage: 500MB available space</li>
+                                <li><i class="fas fa-network-wired"></i> Internet connection (for initial download)</li>
+                            </ul>
+                        </div>
+                        <div class="requirement-block">
+                            <h4>macOS</h4>
+                            <ul>
+                                <li><i class="fas fa-microchip"></i> OS: macOS 10.10+</li>
+                                <li><i class="fas fa-microchip"></i> CPU: Any modern processor</li>
+                                <li><i class="fas fa-memory"></i> RAM: 2GB</li>
+                                <li><i class="fas fa-hdd"></i> Storage: 500MB available space</li>
+                                <li><i class="fas fa-network-wired"></i> Internet connection (for initial download)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="info-section">
+            <div class="container">
+                <div class="info-block animate-on-scroll" data-animation="fadeInLeft">
+                    <i class="fas fa-shield-alt info-icon"></i>
+                    <h3>Safe & Secure</h3>
+                    <p>All downloads are verified and free from malware.</p>
+                </div>
+                <div class="info-block animate-on-scroll" data-animation="fadeInUp" data-delay="200">
+                    <i class="fas fa-question-circle info-icon"></i>
+                    <h3>Need Help?</h3>
+                    <p>Check our documentation or contact support.</p>
+                </div>
+                <div class="info-block animate-on-scroll" data-animation="fadeInRight" data-delay="400">
+                    <i class="fas fa-sync-alt info-icon"></i>
+                    <h3>Latest Updates</h3>
+                    <p>Stay up-to-date with the latest features and improvements.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo-area">
+                    <img src="../images/logo.png" alt="PETWORLD Logo" class="logo">
+                    <p>PETWORLD - Decentralized games created based on a new Web3 economic model experiment</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/download.js"></script>
+</body>
+</html>
